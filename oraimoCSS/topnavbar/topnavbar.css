@@ -1,0 +1,16 @@
+.topnavbar {
+  background-color:#343434;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.topnavbar img {
+width:100%;
+}
+#cancle-button{
+  width:20px;
+  padding:10px
+}
+
+

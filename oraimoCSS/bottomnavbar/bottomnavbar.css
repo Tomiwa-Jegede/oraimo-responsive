@@ -1,0 +1,121 @@
+.bottomnavbar {
+  background-color: #1d1d1d;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+/*----dropdown container----*/
+#dropdowncontainer {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+}
+/*----general code for the dropdown-----*/
+#hot-new,
+#support,
+#daily-deals {
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  padding: 20px 0px;
+  cursor: pointer;
+  transition: color 0.2s linear;
+}
+#hot-new ul,
+#support ul {
+  position: absolute;
+  padding: 0px;
+  width: 160px;
+  height: 0px;
+  opacity: 0%;
+  overflow: hidden;
+  background-color: white;
+  top: 54px;
+  transition: height 0s 0.2s, opacity 0.3s linear;
+}
+#hot-new li,
+#support li {
+  color: black;
+  list-style: none;
+  border-bottom: rgba(128, 128, 128, 0.5) solid 0.2px;
+  padding: 10px 0px 10px 0px;
+  width: 130px;
+  margin-left: 10px;
+}
+/*-----code for the product-----*/
+#product {
+  background-color: white;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+  opacity: 0%;
+  justify-content: center;
+  top: 66px;
+  left:0px;
+  transition: height 0s 0.2s, opacity 0.3s linear;
+}
+#product img {
+  width: 100%;
+  object-fit: contain;
+}
+#product ul {
+  font-size: 13px;
+  color: black;
+  list-style: none;
+  padding: 0px;
+  margin: 10px;
+  margin-top: 30px;
+  width: 16%;
+}
+#product li {
+  padding: 10px;
+  width: 100%;
+}
+#product h3 {
+  border-bottom: rgba(128, 128, 128, 0.5) solid 0.2px;
+  margin-bottom: 15px;
+}
+#product-dropdown{
+  font-size: 12px;
+  font-weight: 600;
+  padding: 20px 0px;
+  cursor: pointer;
+  transition: color 0.2s linear;
+}
+/*-----code for the support-----*/
+#support ul {
+  width: 250px;
+  opacity: 0%;
+}
+#support li {
+  width: 200px;
+}
+/*-----icons----*/
+.icons img {
+  width: 100%;
+}
+.icons {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.icons div {
+  width: 20px;
+  display: flex;
+}
+/*-----arrows----*/
+.arrow {
+  display: inline-block;
+  padding: 0px 8px 3px 9px;
+  font-size: 20px;
+  transform: rotate(90deg);
+  transition: transform 0.2s linear;
+}

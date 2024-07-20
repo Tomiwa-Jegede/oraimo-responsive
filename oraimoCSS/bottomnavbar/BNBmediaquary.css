@@ -1,0 +1,11 @@
+@media (max-width: 1023px) {
+  #daily-deals,
+  #hot-new,
+  #product-dropdown,
+  #support {
+    display: none;
+  }
+  body {
+    width: 670px;
+  }
+}

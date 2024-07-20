@@ -1,0 +1,42 @@
+/*---general---*/
+#hot-new:hover,
+#product-dropdown:hover,
+#support:hover,
+#daily-deals:hover{
+  color: #82e600;
+}
+/*---hot-new animation---*/
+#hot-new:hover ul {
+  height: 69px;
+  opacity: 100%;
+}
+#hot-new ul li:hover {
+  color: #82e600;
+}
+/*---support animation---*/
+#product-dropdown:hover #product{
+  height:550px;
+  opacity: 100%;
+}
+#product-dropdown ul li:hover{
+  color: #82e600;
+}
+#product-dropdown h3:hover{
+  color: #82e600;
+}
+/*---support animation---*/
+#support:hover ul {
+  height: 188px;
+  opacity: 100%;
+}
+#support ul li:hover {
+  color: #82e600;
+}
+/*----arrow hover----*/
+#hot-new:hover .arrow,
+#product-dropdown:hover .arrow,
+#support:hover .arrow,
+#daily-deals:hover .arrow{
+transform:rotate(270deg);
+color:white;
+}
