@@ -1,14 +1,15 @@
 .carousel1-container {
   list-style: none;
   position: relative;
+  overflow: hidden;
 }
-.carousel1-container img {
+#carousel1-slider img {
   width: 100%;
+  transform: translate(-100%);
 }
-
-#carousel-slider {
+#carousel1-slider {
   display: flex;
-  transform: translateX(-100%);
+  transition: transform 0.3s linear;
 }
 /*------code for the dots----*/
 #dots {
@@ -18,20 +19,21 @@
   position: absolute;
   bottom: 0;
   left: 43%;
-  width: 280px;
+  width: 20%;
   justify-content: space-between;
 }
 #dots li {
-  padding: 9px;
+  width: 0%;
+  padding: 7px;
   border-radius: 50%;
   z-index: 999;
   background-color: rgba(128, 128, 128, 0.5);
 }
-#dots #active {
-  width: 30px;
+#dots .active {
+  width: 15%;
   border-radius: 50px;
-  transform: translate(10px);
   background-color: #82e600;
+  transition: width 0.3s linear;
 }
 /*----code for the navigation btn-----*/
 #navigationBTN img {
