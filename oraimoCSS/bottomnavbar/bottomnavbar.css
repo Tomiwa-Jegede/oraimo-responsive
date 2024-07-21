@@ -36,6 +36,7 @@
   background-color: white;
   top: 54px;
   transition: height 0s 0.2s, opacity 0.3s linear;
+  z-index:9999;
 }
 #hot-new li,
 #support li {
@@ -59,6 +60,7 @@
   top: 66px;
   left:0px;
   transition: height 0s 0.2s, opacity 0.3s linear;
+  z-index:9999;
 }
 #product img {
   width: 100%;

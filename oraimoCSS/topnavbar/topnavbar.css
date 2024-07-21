@@ -1,16 +1,21 @@
 .topnavbar {
-  background-color:#343434;
-  color:white;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+  background-color: #343434;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
 }
 .topnavbar img {
-width:100%;
+  width: 100%;
 }
-#cancle-button{
-  width:20px;
-  padding:10px
+#cancle-button {
+  width: 20px;
+  padding: 10px;
+  background-color: #343434;
+  z-index: 1;
 }
-
-
+#topnavbartext {
+  animation: topnavbartextslider 15s linear infinite;
+}

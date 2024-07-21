@@ -1,0 +1,8 @@
+
+@keyframes topnavbartextslider{
+  from{transform:translateX(1400px)}
+  to{transform:translateX(-620px)}
+}
+.topnavbar:hover #topnavbartext{
+animation-play-state: paused;
+}
