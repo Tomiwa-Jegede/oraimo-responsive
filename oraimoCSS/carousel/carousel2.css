@@ -1,7 +1,13 @@
-.carousel2-container {
+#carousel2-container1 {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.carousel2-container2 {
   width: 85%;
+  height: 500px;
   transform: translate(9%);
-  margin-top: 5%;
+  margin-top: 2%;
   overflow: hidden;
 }
 #carousel2-slider img {
@@ -10,13 +16,16 @@
   object-fit: contain;
 }
 #carousel2-slider .product {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.028);
   border-radius: 10px;
 }
 #carousel2-slider {
   display: flex;
   width: 155%;
-  transform: translate(-16.6%);
+  transition: transform 0.3s linear;
+}
+#carousel2-slider .product-container {
+  transform: translate(-113%);
 }
 #carousel2-slider .product-details ul {
   display: flex;
@@ -26,6 +35,7 @@
   align-items: center;
   list-style: none;
   padding: 0;
+  border-bottom: rgba(128, 128, 128, 0.5) solid 0.2px;
 }
 #carousel2-slider div {
   margin-right: 2%;
@@ -37,6 +47,7 @@
 }
 #carousel2-slider h3 {
   width: 180%;
+  cursor: pointer;
 }
 #carousel2-slider .newprice {
   width: 100%;
@@ -45,4 +56,55 @@
 #carousel2-slider .oldprice {
   margin-left: 10%;
   font-size: 15px;
+}
+/*------code for the dots----*/
+#dots2 {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 43%;
+  width: 20%;
+  justify-content: space-between;
+}
+#dots2 li {
+  width: 0%;
+  padding: 7px;
+  border-radius: 50%;
+  z-index: 999;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+#dots2 .active {
+  width: 10%;
+  border-radius: 50px;
+  background-color: #82e600;
+  transition: width 0.3s linear;
+}
+/*----code for the navigation btn-----*/
+.navigationBTN2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.navigationBTN2 {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  bottom: 45%;
+  left: 0%;
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+
+  z-index: 999;
+}
+.navigationBTN2 li {
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.115);
+  border-radius: 50%;
+  padding: 0px 1px 0px 3px;
+}
+.navigationBTN2 #prevBTN2 {
+  transform: rotate(180deg);
 }
