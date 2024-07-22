@@ -1,0 +1,15 @@
+.product-display{
+  margin-top:3%;
+  list-style: none;
+  padding: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #11111117;
+  border-radius: 10px;
+  width: 85%;
+  transform: translate(9%);
+}
+.product-display h3{
+  padding: 1.5%;
+}

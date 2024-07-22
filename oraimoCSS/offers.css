@@ -1,0 +1,16 @@
+#offer-images {
+  list-style: none;
+  padding: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #11111117;
+  border-radius: 10px;
+  width: 85%;
+  transform: translate(9%);
+}
+#offer-images li {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+}
